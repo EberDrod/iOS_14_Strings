@@ -6,6 +6,7 @@ var cantidadDinero = 1000
 var sexoFemenino = false
 
     //true
+// manipula este signo (!)
 if !((edad >= 18 || cantidadDinero > 250) && (sexoFemenino)) {
     
     //false
