@@ -15,5 +15,12 @@ print("El arreglo esta vacio, su cantidad de elementos es:\(numeros.count)")
 
 
 var numeroAleatorio: Int
+var n = 0
 
+repeat{
+    n += 1
+    numeroAleatorio = Int(arc4random_uniform(10))
+    print("El ciclo lleva \(n) cantidad de iteraciones")
+    print("El numero aleatorio : \(numeroAleatorio)")
+}while (numeroAleatorio != 8 )
 
